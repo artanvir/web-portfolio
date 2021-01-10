@@ -3,12 +3,18 @@ body{
     margin: 0%;
 }
 h1{
+
 font-size: 50px;
 
-
 }
+h2{
 
-.name-highlight{
+    font-size: 40px;
+}
+p{
+    color: gray;
+}
+.orange-highlight{
 
     color: rgb(235, 194, 62);
 }
@@ -27,6 +33,7 @@ background-repeat: no-repeat;
 }
 section{
     height: 500px;
+    padding-bottom: 200px;
 }
 .link_button{
     text-decoration: none;
@@ -36,4 +43,39 @@ section{
     color: white;
     font-weight: 700;
     
+}
+
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-ex{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;   
+    background-color: white;
+}
+.ex-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+#full{
+    text-align: center;
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, lightsalmon, tomato );
+    border-image-slice: 1;
+}
+
+#baby{
+    text-align: center;
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, blue, cyan );
+    border-image-slice: 1;
+
+}
+
+footer p{
+text-align: center;
 }
